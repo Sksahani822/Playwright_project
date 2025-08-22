@@ -1,0 +1,22 @@
+Steps to Run the code in Gitpot:
+ 
+1.Open the Github Repo Link in GitHub Application.
+ 
+2.you see the Gopen icon in the top right of the files. IF it is not visible, please add the Gitpod Extension to browser.
+ 
+3.Give the Icon. It takes few mintues and take it to Gitpot workshape.
+ 
+4.All denpendency will download automaticall wwith respect to package.json and .gitpot.yml files.
+ 
+5.Open the terminal by entering ctrl+shift+`.
+ 
+6.Enter your LambdaTest Credentials in below format in terminal:
+   
+  eval $(gp env -e LT_USERNAME=******)
+ 
+  eval $(gp env -e LT_ACCESS_KEY=******)
+ 
+7.Enter npx playwright test in terminal.
+ 
+8.Test will reun and showw the result.
+ 
